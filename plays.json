@@ -239,7 +239,7 @@
                 "changeStatus": ""
             },
             "app.js": {
-                "content": "//console.log('hello world')",
+                "content": "//console.log('hello world')\nvar a = 2;",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -247,7 +247,7 @@
                 "path": "app.js",
                 "url": "",
                 "src": "git",
-                "sha": "9dc752d7e03930467d4ea4aa2feb2218b72bf05a",
+                "sha": "67dd8131a0e9961d54c546ce7927b3710430529b",
                 "changeStatus": ""
             },
             "readme.md": {
