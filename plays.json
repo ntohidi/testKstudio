@@ -1,10 +1,10 @@
 {
     "hello.kpg": {
-        "changeState": "",
+        "changeState": "added",
         "name": "hello.kpg",
         "files": {
             "index.html": {
-                "content": "<!DOCTYPE html>\n<html>\n<head>\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n    <title>Nasrin HTML Course</title>\n    \n    <!--<style>-->\n    <!--    h1 {-->\n    <!--        color: green;-->\n    <!--    }-->\n    <!--    img {-->\n    <!--        width: 200px;-->\n    <!--    }-->\n    <!--</style>-->\n</head>\n<body>\n    <h1>Hello friends</h1>\n    <p>\n        look at this cute puppy\n    </p>\n    <img src=\"puppy.jpg\">\n    \n</body>\n</html>",
+                "content": "<!DOCTYPE html>\n<html>\n<head>\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n    <title>Nasrin HTML Course</title>\n    <link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\">\n    \n</head>\n<body>\n    <h1>Hello friends</h1>\n    <p>\n        look at this cute puppyss\n    </p>\n    <img src=\"puppy.jpg\">\n    <img src=\"dog.jpg\">\n    \n</body>\n</html>",
                 "changeState": "",
                 "editor": true,
                 "fileName": "index.html",
@@ -12,7 +12,7 @@
                 "path": "index.html",
                 "src": "git",
                 "url": "",
-                "sha": "312c7afbecf212dffd4340d0ff17265421dd059a",
+                "sha": "f3bf2fe747b5bceff2b880fe19e949dc27ce2e96",
                 "changeStatus": ""
             },
             "puppy.jpg": {
@@ -43,9 +43,45 @@
                 "changeState": "",
                 "sha": "74f118455e3cb0b5a65e7d98bbeecfb52b67f90d",
                 "changeStatus": ""
+            },
+            "dog.jpg": {
+                "type": "added",
+                "fileName": "dog.jpg",
+                "locator": true,
+                "editor": false,
+                "src": "",
+                "fileType": "image",
+                "path": "dog.jpg",
+                "uploaded": false,
+                "content": "<!DOCTYPE html>\n<html>\n<head>\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n    <title>Nasrin HTML Course</title>\n    \n    <!--<style>-->\n    <!--    h1 {-->\n    <!--        color: green;-->\n    <!--    }-->\n    <!--    img {-->\n    <!--        width: 200px;-->\n    <!--    }-->\n    <!--</style>-->\n</head>\n<body>\n    <h1>Hello friends</h1>\n    <p>\n        look at this cute puppyss\n    </p>\n    <img src=\"puppy.jpg\">\n    <img src=\"dog.jpg\">\n    \n</body>\n</html>",
+                "url": "https://www.petmd.com/sites/default/files/breedopedia/dalmatian.jpg",
+                "changeState": "modified"
+            },
+            "style.css": {
+                "type": "added",
+                "fileName": "style.css",
+                "locator": false,
+                "editor": true,
+                "src": "git",
+                "fileType": "code",
+                "path": "style.css",
+                "uploaded": false,
+                "content": "/* style.css Ì†ºÌæ®Ì†ΩÌ±ç */\n h1 {\n    color: green;\n}\nimg {\n    width: 200px;\n    height: 200px;\n    border: 2px solid green;\n}",
+                "url": "",
+                "changeState": "modified"
             }
         },
-        "changesLog": {},
+        "changesLog": {
+            "added": {
+                "dog.jpg": 1,
+                "style.css": 1
+            },
+            "edited": {
+                "dog.jpg": 16,
+                "index.html": 40,
+                "style.css": 29
+            }
+        },
         "pushed": true
     }
 }
