@@ -125,7 +125,7 @@
     "mypg.kpg": {
         "files": {
             "index.html": {
-                "content": "<p>Hello World</p>\n<img src=\"kidocode.jpg\">",
+                "content": "<p>Hello World</p>\n<img src=\"kidocode.jpg\">\n<video width=\"320\" height=\"240\" controls>\n  <source src=\"sample.mp4\" type=\"video/mp4\">\n</video>",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -133,7 +133,7 @@
                 "path": "index.html",
                 "url": "",
                 "src": "git",
-                "sha": "4ed2f31deeeced639acb6eac0141dd90e6470b26",
+                "sha": "e72a7813c356d62dc40f6df34219b8f6d9cb72f6",
                 "changeStatus": ""
             },
             "app.css": {
@@ -185,6 +185,19 @@
                 "url": "https://raw.githubusercontent.com/ntohidi/testKstudio/master/mypg.kpg/kidocode.jpg?token=AECYTANZLUAGUTKNJHJA5LS5JFJY6",
                 "sha": "535d23086237c6d6a7352b1acb09e4ab70dd0dd2",
                 "changeState": "added"
+            },
+            "sample.mp4": {
+                "type": "added",
+                "fileName": "sample.mp4",
+                "locator": true,
+                "editor": false,
+                "src": "",
+                "fileType": "video",
+                "path": "sample.mp4",
+                "uploaded": false,
+                "content": "<p>Hello World</p>\n<img src=\"kidocode.jpg\">ss",
+                "url": "https://sample-videos.com/video123/mp4/480/big_buck_bunny_480p_1mb.mp4",
+                "changeState": "modified"
             }
         },
         "hash": "",
