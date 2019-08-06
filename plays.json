@@ -28,6 +28,21 @@
                 "url": "https://raw.githubusercontent.com/ntohidi/testKstudio/master/hello.kpg/puppy.jpg?token=AECYTAPVLYCUQAPNXCWUBM25JFC3K",
                 "sha": "47b9e6f1df309dfa5e60f11d1b6daa22d813fa6e",
                 "changeState": "added"
+            },
+            "readme.md": {
+                "type": "added",
+                "fileName": "readme.md",
+                "locator": false,
+                "editor": true,
+                "src": "git",
+                "fileType": "code",
+                "path": "readme.md",
+                "uploaded": false,
+                "content": "# This is my very own course",
+                "url": "",
+                "changeState": "",
+                "sha": "74f118455e3cb0b5a65e7d98bbeecfb52b67f90d",
+                "changeStatus": ""
             }
         },
         "changesLog": {},
