@@ -330,7 +330,7 @@
             },
             "app.js": {
                 "content": "//console.log('hello world')\nvar a = 2;",
-                "changeState": "added",
+                "changeState": "",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "app.js",
@@ -342,7 +342,7 @@
             },
             "readme.md": {
                 "content": "This is a new playground, and make your best play here Ì†ΩÌ∏ç\n# yeayyyy\n## hoooo",
-                "changeState": "added",
+                "changeState": "",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "readme.md",
@@ -387,12 +387,8 @@
         },
         "name": "testxx_0.kpg",
         "caption": "newone.kpg",
-        "changesLog": {
-            "edited": {
-                "index.html": 1
-            }
-        },
-        "changeState": "added",
+        "changesLog": {},
+        "changeState": "",
         "pushed": true,
         "oldName": "mypg_0.kpg"
     }
