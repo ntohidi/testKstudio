@@ -1,6 +1,6 @@
 {
     "hello.kpg": {
-        "changeState": "added",
+        "changeState": "",
         "name": "hello.kpg",
         "files": {
             "index.html": {
@@ -24,9 +24,11 @@
                 "fileType": "code",
                 "path": "raedme.md",
                 "uploaded": false,
-                "content": "# This is my very own course\n## Let's have fun together :D\n#### Now let's create a simple headline\n##### Write this line to see our awesome headline:\n``` <h1> Hello wolrd</h1> ```\n##### And now let's add a paragraph:\n``` <p> look at this cute puppy ������ </p>```\n##### if you want to add an image, you need to use ```<img>``` tag:\n``` <img src=\"IMAGE_NAME\">```\n##### Awsome! but our image is quite big \nHere I want to show you how easily you can add style to your html page in header tag:\n``` <style> </style>```\n##### I want to change the width of my image to 200px, look what I do:\n``` \n<style>\n        img {\n            width: 200px;\n        }\n</style>\n```\n##### Perfeeccttttt\nI'd like to change the ```h1``` text color to green, becouse I like green, I all its\nstyle to ```style``` tag in ```header```:\n``` \n    h1 {\n        color: green;\n    }\n```\n##### Tadaaaaa ",
+                "content": "# This is my very own course\n## Let's have fun together :D\n#### Now let's create a simple headline",
                 "url": "",
-                "changeState": "modified"
+                "changeState": "",
+                "sha": "2b5c5a0b580cc1d998261e4ea9f02e1caf739f39",
+                "changeStatus": ""
             },
             "puppy.jpg": {
                 "type": "added",
@@ -43,16 +45,7 @@
                 "changeState": "added"
             }
         },
-        "changesLog": {
-            "edited": {
-                "index.html": 29,
-                "raedme.md": 10
-            },
-            "added": {
-                "raedme.md": 1,
-                "puppy.jpg": 1
-            }
-        },
+        "changesLog": {},
         "pushed": true
     }
 }
