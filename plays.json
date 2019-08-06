@@ -301,5 +301,99 @@
         "changeState": "",
         "pushed": true,
         "oldName": "mypg_0.kpg"
+    },
+    "testxx_0.kpg": {
+        "files": {
+            "index.html": {
+                "content": "<p>Hello Worldz</p>\n",
+                "changeState": "",
+                "editor": true,
+                "fileType": "code",
+                "fileName": "index.html",
+                "path": "index.html",
+                "url": "",
+                "src": "git",
+                "sha": "a1a3679d73a46750f8707c4d71b1f62d70df5e2d",
+                "changeStatus": ""
+            },
+            "app.css": {
+                "content": "body {}",
+                "changeState": "added",
+                "editor": true,
+                "fileType": "code",
+                "fileName": "app.css",
+                "path": "app.css",
+                "url": "",
+                "src": "git",
+                "sha": "2d91681f81650e8547ad94d5d21626e21474aae0",
+                "changeStatus": ""
+            },
+            "app.js": {
+                "content": "//console.log('hello world')\nvar a = 2;",
+                "changeState": "added",
+                "editor": true,
+                "fileType": "code",
+                "fileName": "app.js",
+                "path": "app.js",
+                "url": "",
+                "src": "git",
+                "sha": "67dd8131a0e9961d54c546ce7927b3710430529b",
+                "changeStatus": ""
+            },
+            "readme.md": {
+                "content": "This is a new playground, and make your best play here Ì†ΩÌ∏ç\n# yeayyyy\n## hoooo",
+                "changeState": "added",
+                "editor": true,
+                "fileType": "code",
+                "fileName": "readme.md",
+                "path": "readme.md",
+                "url": "",
+                "src": "git",
+                "sha": "86f833bf6adca5430cde4eea1eb46705f601b39a",
+                "changeStatus": ""
+            },
+            "kidocode.jpg": {
+                "type": "added",
+                "fileName": "kidocode.jpg",
+                "locator": true,
+                "editor": true,
+                "src": "git",
+                "fileType": "image",
+                "path": "kidocode.jpg",
+                "fileObject": {},
+                "content": "kidocode.jpg",
+                "url": "https://raw.githubusercontent.com/ntohidi/testKstudio/master/mypg.kpg/kidocode.jpg?token=AECYTANZLUAGUTKNJHJA5LS5JFJY6",
+                "sha": "535d23086237c6d6a7352b1acb09e4ab70dd0dd2",
+                "changeState": "added"
+            },
+            "sample.mp4": {
+                "type": "added",
+                "fileName": "sample.mp4",
+                "locator": true,
+                "editor": false,
+                "src": "",
+                "fileType": "video",
+                "path": "sample.mp4",
+                "uploaded": false,
+                "content": "<p>Hello World</p>\n<img src=\"kidocode.jpg\">ss",
+                "url": "https://sample-videos.com/video123/mp4/480/big_buck_bunny_480p_1mb.mp4",
+                "changeState": "added"
+            }
+        },
+        "hash": "",
+        "lins": {
+            "scripts": [],
+            "css": []
+        },
+        "name": "testxx_0.kpg",
+        "caption": "newone.kpg",
+        "changesLog": {
+            "edited": {
+                "index.html": 1
+            }
+        },
+        "changeState": "added",
+        "pushed": true,
+        "oldName": "mypg_0.kpg"
     }
 }
