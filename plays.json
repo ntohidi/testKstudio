@@ -318,7 +318,7 @@
             },
             "app.css": {
                 "content": "body {}",
-                "changeState": "added",
+                "changeState": "",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "app.css",
