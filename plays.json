@@ -1,10 +1,10 @@
 {
     "hello.kpg": {
-        "changeState": "",
+        "changeState": "added",
         "name": "hello.kpg",
         "files": {
             "index.html": {
-                "content": "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n\t\t<title></title>\n\t</head>\n\t<body>\n\t\t<h1>Hello í ¾í´“</h1>\n\t</body>\n</html>",
+                "content": "<!DOCTYPE html>\n<html>\n<head>\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n    <title>Nasrin HTML Course</title>\n    \n    <!--<style>-->\n    <!--    h1 {-->\n    <!--        color: green;-->\n    <!--    }-->\n    <!--    img {-->\n    <!--        width: 200px;-->\n    <!--    }-->\n    <!--</style>-->\n</head>\n<body>\n    <h1>Hello friends</h1>\n    <p>\n        look at this cute puppy\n    </p>\n    <img src=\"puppy.jpg\">\n    \n</body>\n</html>",
                 "changeState": "",
                 "editor": true,
                 "fileName": "index.html",
@@ -12,11 +12,47 @@
                 "path": "index.html",
                 "src": "git",
                 "url": "",
-                "sha": "1567ed6c93ce5f58611f2d620968f63f8eb31530",
+                "sha": "312c7afbecf212dffd4340d0ff17265421dd059a",
                 "changeStatus": ""
+            },
+            "raedme.md": {
+                "type": "added",
+                "fileName": "raedme.md",
+                "locator": false,
+                "editor": true,
+                "src": "git",
+                "fileType": "code",
+                "path": "raedme.md",
+                "uploaded": false,
+                "content": "# This is my very own course\n## Let's have fun together :D\n#### Now let's create a simple headline\n##### Write this line to see our awesome headline:\n``` <h1> Hello wolrd</h1> ```\n##### And now let's add a paragraph:\n``` <p> look at this cute puppy ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </p>```\n##### if you want to add an image, you need to use ```<img>``` tag:\n``` <img src=\"IMAGE_NAME\">```\n##### Awsome! but our image is quite big \nHere I want to show you how easily you can add style to your html page in header tag:\n``` <style> </style>```\n##### I want to change the width of my image to 200px, look what I do:\n``` \n<style>\n        img {\n            width: 200px;\n        }\n</style>\n```\n##### Perfeeccttttt\nI'd like to change the ```h1``` text color to green, becouse I like green, I all its\nstyle to ```style``` tag in ```header```:\n``` \n    h1 {\n        color: green;\n    }\n```\n##### Tadaaaaa ",
+                "url": "",
+                "changeState": "modified"
+            },
+            "puppy.jpg": {
+                "type": "added",
+                "fileName": "puppy.jpg",
+                "locator": true,
+                "editor": true,
+                "src": "git",
+                "fileType": "image",
+                "path": "puppy.jpg",
+                "fileObject": {},
+                "content": "puppy.jpg",
+                "url": "https://raw.githubusercontent.com/ntohidi/testKstudio/master/hello.kpg/puppy.jpg?token=AECYTAPVLYCUQAPNXCWUBM25JFC3K",
+                "sha": "47b9e6f1df309dfa5e60f11d1b6daa22d813fa6e",
+                "changeState": "added"
             }
         },
-        "changesLog": {},
+        "changesLog": {
+            "edited": {
+                "index.html": 29,
+                "raedme.md": 10
+            },
+            "added": {
+                "raedme.md": 1,
+                "puppy.jpg": 1
+            }
+        },
         "pushed": true
     }
 }
