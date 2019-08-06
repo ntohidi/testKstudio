@@ -15,21 +15,6 @@
                 "sha": "312c7afbecf212dffd4340d0ff17265421dd059a",
                 "changeStatus": ""
             },
-            "raedme.md": {
-                "type": "added",
-                "fileName": "raedme.md",
-                "locator": false,
-                "editor": true,
-                "src": "git",
-                "fileType": "code",
-                "path": "raedme.md",
-                "uploaded": false,
-                "content": "# This is my very own course\n## Let's have fun together :D\n#### Now let's create a simple headline",
-                "url": "",
-                "changeState": "",
-                "sha": "2b5c5a0b580cc1d998261e4ea9f02e1caf739f39",
-                "changeStatus": ""
-            },
             "puppy.jpg": {
                 "type": "added",
                 "fileName": "puppy.jpg",
