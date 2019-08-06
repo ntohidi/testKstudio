@@ -228,7 +228,7 @@
             },
             "app.css": {
                 "content": "body {}",
-                "changeState": "added",
+                "changeState": "",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "app.css",
@@ -251,8 +251,8 @@
                 "changeStatus": ""
             },
             "readme.md": {
-                "content": "This is a new playground, and make your best play here Ì†ΩÌ∏ç",
-                "changeState": "added",
+                "content": "This is a new playground, and make your best play here Ì†ΩÌ∏ç\n# yeayyyy",
+                "changeState": "modified",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "readme.md",
@@ -297,8 +297,12 @@
         },
         "name": "testxx.kpg",
         "caption": "newone.kpg",
-        "changesLog": {},
-        "changeState": "",
+        "changesLog": {
+            "edited": {
+                "readme.md": 9
+            }
+        },
+        "changeState": "added",
         "pushed": true,
         "oldName": "mypg_0.kpg"
     }
