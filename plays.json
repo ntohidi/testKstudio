@@ -1,6 +1,6 @@
 {
     "hello.kpg": {
-        "changeState": "added",
+        "changeState": "",
         "name": "hello.kpg",
         "files": {
             "index.html": {
@@ -113,22 +113,13 @@
                 "uploaded": false,
                 "content": "/* app.js Ì†æÌ¥ìÌ†ΩÌ±ç */\nvar a = 3;\nconsole.log( a + 3);",
                 "url": "",
-                "changeState": "added",
+                "changeState": "",
                 "changeStatus": "",
-                "oldPath": "main2.js"
+                "oldPath": "main2.js",
+                "sha": "ca3a2f3f1349270d01a764796e132b54cd839f2a"
             }
         },
-        "changesLog": {
-            "added": {
-                "main2.js": 1
-            },
-            "edited": {
-                "main2.js": 32
-            },
-            "renamed": {
-                "main2.js": 1
-            }
-        },
+        "changesLog": {},
         "pushed": true
     }
 }
