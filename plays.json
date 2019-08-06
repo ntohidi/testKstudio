@@ -25,7 +25,7 @@
                 "path": "puppy.jpg",
                 "fileObject": {},
                 "content": "puppy.jpg",
-                "url": "https://raw.githubusercontent.com/ntohidi/testKstudio/master/hello.kpg/puppy.jpg?token=AECYTAPVLYCUQAPNXCWUBM25JFC3K",
+                "url": "https://raw.githubusercontent.com/ntohidi/testKstudio/master/hello.kpg/puppy.jpg",
                 "sha": "47b9e6f1df309dfa5e60f11d1b6daa22d813fa6e",
                 "changeState": "added"
             },
@@ -171,6 +171,20 @@
                 "src": "git",
                 "sha": "f1e3386355c457240d7775119ba3c2a1719c3d59",
                 "changeStatus": ""
+            },
+            "kidocode.jpg": {
+                "type": "added",
+                "fileName": "kidocode.jpg",
+                "locator": true,
+                "editor": true,
+                "src": "git",
+                "fileType": "image",
+                "path": "kidocode.jpg",
+                "fileObject": {},
+                "content": "kidocode.jpg",
+                "url": "https://raw.githubusercontent.com/ntohidi/testKstudio/master/mypg.kpg/kidocode.jpg?token=AECYTANZLUAGUTKNJHJA5LS5JFJY6",
+                "sha": "535d23086237c6d6a7352b1acb09e4ab70dd0dd2",
+                "changeState": "added"
             }
         },
         "hash": "",
@@ -180,7 +194,11 @@
         },
         "name": "mypg.kpg",
         "caption": "newone.kpg",
-        "changesLog": {},
+        "changesLog": {
+            "added": {
+                "kidocode.jpg": 1
+            }
+        },
         "changeState": "",
         "pushed": true,
         "oldName": "newone.kpg"
