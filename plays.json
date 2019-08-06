@@ -1,6 +1,6 @@
 {
     "hello.kpg": {
-        "changeState": "added",
+        "changeState": "",
         "name": "hello.kpg",
         "files": {
             "index.html": {
@@ -68,20 +68,12 @@
                 "uploaded": false,
                 "content": "/* style.css Ì†ºÌæ®Ì†ΩÌ±ç */\n h1 {\n    color: green;\n}\nimg {\n    width: 200px;\n    height: 200px;\n    border: 2px solid green;\n}",
                 "url": "",
-                "changeState": "modified"
+                "changeState": "",
+                "sha": "1e9b35319889f98366fcf0343f5465a49939d1d0",
+                "changeStatus": ""
             }
         },
-        "changesLog": {
-            "added": {
-                "dog.jpg": 1,
-                "style.css": 1
-            },
-            "edited": {
-                "dog.jpg": 16,
-                "index.html": 40,
-                "style.css": 29
-            }
-        },
+        "changesLog": {},
         "pushed": true
     }
 }
