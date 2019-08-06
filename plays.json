@@ -71,6 +71,21 @@
                 "changeState": "",
                 "sha": "1e9b35319889f98366fcf0343f5465a49939d1d0",
                 "changeStatus": ""
+            },
+            "app.js": {
+                "type": "added",
+                "fileName": "app.js",
+                "locator": false,
+                "editor": true,
+                "src": "git",
+                "fileType": "code",
+                "path": "app.js",
+                "uploaded": false,
+                "content": "/* app.js Ì†æÌ¥ìÌ†ΩÌ±ç */\nconsole.log('hello')",
+                "url": "",
+                "changeState": "",
+                "sha": "5feab0390112238cd4c99af762122d7092f50c2c",
+                "changeStatus": ""
             }
         },
         "changesLog": {},
