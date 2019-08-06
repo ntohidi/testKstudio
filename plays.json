@@ -215,20 +215,20 @@
     "mypg_0.kpg": {
         "files": {
             "index.html": {
-                "content": "<p>Hello Worldz</p>\n<img src=\"kidocode.jpg\">\n<video width=\"320\" height=\"240\" controls>\n  <source src=\"sample.mp4\" type=\"video/mp4\">\n</video>",
-                "changeState": "added",
+                "content": "<p>Hello Worldz</p>\n<img src=\"kidocode.jpg\">\n<video width=\"320\" height=\"240\" controls>\n  <source src=\"sample.mp4\" type=\"video/mp4\">\n</video>\n",
+                "changeState": "",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "index.html",
                 "path": "index.html",
                 "url": "",
                 "src": "git",
-                "sha": "dd4aa079c9a6aaac8d7e1b56be919f92012d89d4",
+                "sha": "6dfef47166d4b8622d07df5e6135fbfde04e287e",
                 "changeStatus": ""
             },
             "app.css": {
                 "content": "body {}",
-                "changeState": "added",
+                "changeState": "",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "app.css",
@@ -297,7 +297,11 @@
         },
         "name": "mypg_0.kpg",
         "caption": "newone.kpg",
-        "changesLog": {},
+        "changesLog": {
+            "edited": {
+                "index.html": 1
+            }
+        },
         "changeState": "added",
         "pushed": true,
         "oldName": "newone.kpg"
