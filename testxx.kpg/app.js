@@ -5,4 +5,6 @@ function func(x){
     return v
 }
 
+console.log('calling my function...')
 console.log(func(4))
+console.log('Done')
