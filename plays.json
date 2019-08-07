@@ -227,7 +227,7 @@
                 "changeStatus": ""
             },
             "app.css": {
-                "content": "body {\n    background-image: url('bg.jpg');\n}\nvideo{\n    margin-top: 2rem;\n    display: block;\n    border: 5px solid #e6beaf;\n    border-radius: 10px;\n}",
+                "content": "body {\n    background-image: url('bg.jpg');\n}\nvideo{\n    margin-top: 2rem;\n    display: block;\n    border: 5px solid #e6beaf;\n    border-radius: 10px;\n}\np{\n    color:green;\n    font-weight: 500;\n}",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -235,11 +235,11 @@
                 "path": "app.css",
                 "url": "",
                 "src": "git",
-                "sha": "299eeae7761e4956a3ecdb244e205e1b792f271c",
+                "sha": "114de4b39a9f3562b18929d0a64eb584c1ab3cdf",
                 "changeStatus": ""
             },
             "app.js": {
-                "content": "//console.log('hello world')\nvar a = 2;\nfunction func(x){\n    var v = x *2;\n    return v\n}\n\nconsole.log(func(4))",
+                "content": "//console.log('hello world')\nvar a = 2;\nfunction func(x){\n    var v = x *2;\n    return v\n}\n\nconsole.log('calling my function...')\nconsole.log(func(4))\nconsole.log('Done')",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -247,7 +247,7 @@
                 "path": "app.js",
                 "url": "",
                 "src": "git",
-                "sha": "1ca1e9b0ffa2385091b3a00d29b0b8999cc6e3b6",
+                "sha": "59bf466b05cf1b18992267a234b003b3211c1878",
                 "changeStatus": ""
             },
             "readme.md": {
