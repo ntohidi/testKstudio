@@ -457,14 +457,8 @@
         },
         "name": "kitkat.kpg",
         "caption": "kitkat.kpg",
-        "changesLog": {
-            "added": {
-                "index.html": 1,
-                "app.css": 1,
-                "app.js": 1,
-                "readme.md": 1
-            }
-        },
-        "changeState": "added"
+        "changesLog": {},
+        "changeState": "",
+        "pushed": true
     }
 }
