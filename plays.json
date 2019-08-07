@@ -409,13 +409,15 @@
         "files": {
             "index.html": {
                 "content": "<p>Hello World</p>",
-                "changeState": "added",
+                "changeState": "",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "index.html",
                 "path": "index.html",
                 "url": "",
-                "src": "git"
+                "src": "git",
+                "sha": "92f9a3de160337a5b33a4a04b06fb339f56d45ae",
+                "changeStatus": ""
             },
             "app.css": {
                 "content": "body {}",
