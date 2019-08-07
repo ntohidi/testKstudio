@@ -117,6 +117,32 @@
                 "changeStatus": "",
                 "oldPath": "main2.js",
                 "sha": "ca3a2f3f1349270d01a764796e132b54cd839f2a"
+            },
+            "a.js": {
+                "type": "added",
+                "fileName": "a.js",
+                "locator": false,
+                "editor": true,
+                "src": "git",
+                "fileType": "code",
+                "path": "a.js",
+                "uploaded": false,
+                "content": "/* a.js Ì†æÌ¥ìÌ†ΩÌ±ç */",
+                "url": "",
+                "changeState": "added"
+            },
+            "a12.js": {
+                "type": "added",
+                "fileName": "a12.js",
+                "locator": false,
+                "editor": true,
+                "src": "git",
+                "fileType": "code",
+                "path": "a12.js",
+                "uploaded": false,
+                "content": "/* a12.js Ì†æÌ¥ìÌ†ΩÌ±ç */",
+                "url": "",
+                "changeState": "added"
             }
         },
         "changesLog": {},
