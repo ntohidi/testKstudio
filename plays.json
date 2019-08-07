@@ -129,7 +129,9 @@
                 "uploaded": false,
                 "content": "/* a.js Ì†æÌ¥ìÌ†ΩÌ±ç */",
                 "url": "",
-                "changeState": "added"
+                "changeState": "",
+                "sha": "8c884ff3576b77d02aaa7558f340c68de515827e",
+                "changeStatus": ""
             },
             "a12.js": {
                 "type": "added",
@@ -143,6 +145,20 @@
                 "content": "/* a12.js Ì†æÌ¥ìÌ†ΩÌ±ç */",
                 "url": "",
                 "changeState": "added"
+            },
+            "readme2.md": {
+                "type": "added",
+                "fileName": "readme2.md",
+                "locator": false,
+                "editor": true,
+                "src": "git",
+                "fileType": "code",
+                "path": "readme2.md",
+                "uploaded": false,
+                "content": "# This is my very own course",
+                "url": "",
+                "changeState": "added",
+                "changeStatus": ""
             }
         },
         "changesLog": {},
