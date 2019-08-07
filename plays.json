@@ -227,7 +227,7 @@
                 "changeStatus": ""
             },
             "app.css": {
-                "content": "body {\n    background-image: url('bg.jpg');\n}\nvideo{\n    margin-top: 2rem;\n    display: block;\n    border: 5px solid #e6beaf;\n    border-radius: 10px;\n}\np{\n    color:green;\n    font-weight: 500;\n}",
+                "content": "body {\n    background-image: url('bg.jpg');\n}\nvideo{\n    margin-top: 2rem;\n    display: block;\n    border: 5px solid #e6beaf;\n    border-radius: 10px;\n}\np{\n    color:green;\n    font-weight: 500;\n    \n}",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -235,7 +235,7 @@
                 "path": "app.css",
                 "url": "",
                 "src": "git",
-                "sha": "114de4b39a9f3562b18929d0a64eb584c1ab3cdf",
+                "sha": "95ddf856fd61a40123fb7b753fac99ec37f2d94f",
                 "changeStatus": ""
             },
             "app.js": {
