@@ -227,7 +227,7 @@
                 "changeStatus": ""
             },
             "app.css": {
-                "content": "body {}",
+                "content": "body {\n    background-image: url('http://wta.wpengine.netdna-cdn.com/wp-content/uploads/2013/07/Color_03.jpg');\n}\nvideo{\n    margin-top: 2rem;\n    display: block;\n    border: 5px solid #e6beaf;\n    border-radius: 10px;\n}",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -235,11 +235,11 @@
                 "path": "app.css",
                 "url": "",
                 "src": "git",
-                "sha": "2d91681f81650e8547ad94d5d21626e21474aae0",
+                "sha": "b5d7d8db1d13119c0178247f8249a63ad725fe2a",
                 "changeStatus": ""
             },
             "app.js": {
-                "content": "//console.log('hello world')\nvar a = 2;",
+                "content": "//console.log('hello world')\nvar a = 2;\nfunction func(x){\n    var v = x *2;\n    return v\n}\n\nconsole.log(func(4))",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -247,11 +247,11 @@
                 "path": "app.js",
                 "url": "",
                 "src": "git",
-                "sha": "67dd8131a0e9961d54c546ce7927b3710430529b",
+                "sha": "1ca1e9b0ffa2385091b3a00d29b0b8999cc6e3b6",
                 "changeStatus": ""
             },
             "readme.md": {
-                "content": "This is a new playground, and make your best play here Ì†ΩÌ∏ç\n# yeayyyy\n## hoooo",
+                "content": "This is a new playground, and make your best play here Ì†ΩÌ∏ç\n# I want to teach you how to add background image to your page, so come with me in my jurney Ì†ΩÌ±©Ì†ºÌøª‚ÄçÌ†ºÌæ®\n\nTo add background image to body, we need to add new attributr inside body selector:\n```\n    background-image: url('http://wta.wpengine.netdna-cdn.com/wp-content/uploads/2013/07/Color_03.jpg');\n```\n\nThat's it!\n### Easy Peasy Ì†æÌ¥ûÌ†ºÌøºÌ†ΩÌ≤ÉÌ†ºÌøºÌ†æÌ¥™\n",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -259,7 +259,7 @@
                 "path": "readme.md",
                 "url": "",
                 "src": "git",
-                "sha": "86f833bf6adca5430cde4eea1eb46705f601b39a",
+                "sha": "05f58b8048bae7df93adbaff212801436ee41928",
                 "changeStatus": ""
             },
             "kidocode.jpg": {
@@ -302,11 +302,11 @@
         "pushed": true,
         "oldName": "mypg_0.kpg"
     },
-    "testxx_0.kpg": {
+    "boogh.kpg": {
         "files": {
             "index.html": {
                 "content": "<p>Hello Worldzz111</p>\n",
-                "changeState": "",
+                "changeState": "added",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "index.html",
@@ -318,7 +318,7 @@
             },
             "app.css": {
                 "content": "body {}",
-                "changeState": "",
+                "changeState": "added",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "app.css",
@@ -330,7 +330,7 @@
             },
             "app.js": {
                 "content": "//console.log('hello world')\nvar a = 2;",
-                "changeState": "",
+                "changeState": "added",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "app.js",
@@ -342,7 +342,7 @@
             },
             "readme.md": {
                 "content": "This is a new playground, and make your best play here Ì†ΩÌ∏ç\n# yeayyyy\n## hoooo",
-                "changeState": "",
+                "changeState": "added",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "readme.md",
@@ -385,11 +385,11 @@
             "scripts": [],
             "css": []
         },
-        "name": "testxx_0.kpg",
+        "name": "boogh.kpg",
         "caption": "newone.kpg",
         "changesLog": {},
-        "changeState": "",
+        "changeState": "renamed",
         "pushed": true,
-        "oldName": "mypg_0.kpg"
+        "oldName": "testxx_0.kpg"
     }
 }
