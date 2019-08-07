@@ -215,7 +215,7 @@
     "testxx.kpg": {
         "files": {
             "index.html": {
-                "content": "<p>Hello Worldz</p>\n<img src=\"kidocode.jpg\">\n<video width=\"320\" height=\"240\" controls>\n  <source src=\"sample.mp4\" type=\"video/mp4\">\n</video>\n",
+                "content": "<p>Hello Worldzzzz</p>\n<img src=\"kidocode.jpg\">\n<video width=\"320\" height=\"240\" controls>\n  <source src=\"sample.mp4\" type=\"video/mp4\">\n</video>\n",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -223,11 +223,11 @@
                 "path": "index.html",
                 "url": "",
                 "src": "git",
-                "sha": "6dfef47166d4b8622d07df5e6135fbfde04e287e",
+                "sha": "bd790df7a4fd5ec42e39c3cc957465a301f0ba07",
                 "changeStatus": ""
             },
             "app.css": {
-                "content": "body {\n    background-image: url('http://wta.wpengine.netdna-cdn.com/wp-content/uploads/2013/07/Color_03.jpg');\n}\nvideo{\n    margin-top: 2rem;\n    display: block;\n    border: 5px solid #e6beaf;\n    border-radius: 10px;\n}",
+                "content": "body {\n    background-image: url('bg.jpg');\n}\nvideo{\n    margin-top: 2rem;\n    display: block;\n    border: 5px solid #e6beaf;\n    border-radius: 10px;\n}",
                 "changeState": "",
                 "editor": true,
                 "fileType": "code",
@@ -235,7 +235,7 @@
                 "path": "app.css",
                 "url": "",
                 "src": "git",
-                "sha": "b5d7d8db1d13119c0178247f8249a63ad725fe2a",
+                "sha": "299eeae7761e4956a3ecdb244e205e1b792f271c",
                 "changeStatus": ""
             },
             "app.js": {
@@ -287,6 +287,19 @@
                 "uploaded": false,
                 "content": "<p>Hello World</p>\n<img src=\"kidocode.jpg\">ss",
                 "url": "https://sample-videos.com/video123/mp4/480/big_buck_bunny_480p_1mb.mp4",
+                "changeState": "added"
+            },
+            "bg.jpg": {
+                "type": "added",
+                "fileName": "bg.jpg",
+                "locator": true,
+                "editor": false,
+                "src": "",
+                "fileType": "image",
+                "path": "bg.jpg",
+                "uploaded": false,
+                "content": "",
+                "url": "http://wta.wpengine.netdna-cdn.com/wp-content/uploads/2013/07/Color_03.jpg",
                 "changeState": "added"
             }
         },
