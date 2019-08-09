@@ -144,7 +144,9 @@
                 "uploaded": false,
                 "content": "/* a12.js Ì†æÌ¥ìÌ†ΩÌ±ç */",
                 "url": "",
-                "changeState": "added"
+                "changeState": "",
+                "sha": "1b64d164f76f58120126c0a34546ec1b19d5b07e",
+                "changeStatus": ""
             },
             "readme2.md": {
                 "type": "added",
@@ -157,8 +159,9 @@
                 "uploaded": false,
                 "content": "# This is my very own course",
                 "url": "",
-                "changeState": "added",
-                "changeStatus": ""
+                "changeState": "",
+                "changeStatus": "",
+                "sha": "74f118455e3cb0b5a65e7d98bbeecfb52b67f90d"
             }
         },
         "changesLog": {},
@@ -570,6 +573,19 @@
                 "url": "",
                 "changeState": "modified",
                 "oldPath": "ssssssssssssss"
+            },
+            "bdgdvdfdcddcdcdgdgdbdbdvdvdcdcdcdcdccdcdcdcdcdcd.txt": {
+                "type": "added",
+                "fileName": "bdgdvdfdcddcdcdgdgdbdbdvdvdcdcdcdcdccdcdcdcdcdcd.txt",
+                "locator": false,
+                "editor": true,
+                "src": "git",
+                "fileType": "code",
+                "path": "bdgdvdfdcddcdcdgdgdbdbdvdvdcdcdcdcdccdcdcdcdcdcd.txt",
+                "uploaded": false,
+                "content": "Empty text file to be filled with your thoughts Ì†æÌ¥î",
+                "url": "",
+                "changeState": "added"
             }
         },
         "hash": "",
