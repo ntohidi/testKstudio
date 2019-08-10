@@ -513,8 +513,8 @@
     "test.kpg": {
         "files": {
             "index.html": {
-                "content": "<p>Hello World</p>",
-                "changeState": "",
+                "content": "<p>Hello World</p>\n<img src=\"no_image.png\">",
+                "changeState": "modified",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "index.html",
@@ -571,8 +571,10 @@
                 "uploaded": false,
                 "content": "hello",
                 "url": "",
-                "changeState": "modified",
-                "oldPath": "ssssssssssssss"
+                "changeState": "",
+                "oldPath": "ssssssssssssss",
+                "sha": "b6fc4c620b67d95f953a5c1c1230aaab5db5a1b0",
+                "changeStatus": ""
             },
             "bdgdvdfdcddcdcdgdgdbdbdvdvdcdcdcdcdccdcdcdcdcdcd.txt": {
                 "type": "added",
@@ -582,6 +584,60 @@
                 "src": "git",
                 "fileType": "code",
                 "path": "bdgdvdfdcddcdcdgdgdbdbdvdvdcdcdcdcdccdcdcdcdcdcd.txt",
+                "uploaded": false,
+                "content": "Empty text file to be filled with your thoughts í ¾í´”",
+                "url": "",
+                "changeState": "",
+                "sha": "907ad8c2b9fee8a21033ff1100010fb5e5082559",
+                "changeStatus": ""
+            },
+            "now.json": {
+                "changeState": "",
+                "content": "{\"version\":2,\"name\":\"test.kpg-kstudio\",\"builds\":[{\"src\":\"*.html\",\"use\":\"@now/static\"},{\"src\":\"*.css\",\"use\":\"@now/static\"},{\"src\":\"*.js\",\"use\":\"@now/static\"},{\"src\":\"*.md\",\"use\":\"@now/md\"},{\"src\":\"*.txt\",\"use\":\"@now/static\"},{\"src\":\"*.txt\",\"use\":\"@now/static\"}]}",
+                "editor": true,
+                "fileName": "now.json",
+                "fileType": "code",
+                "path": "now.json",
+                "sha": "190b6f51365799e9a51af2d07e7443f7d360f8aa",
+                "src": "git",
+                "url": ""
+            },
+            "no_image.png": {
+                "type": "added",
+                "fileName": "no_image.png",
+                "locator": true,
+                "editor": true,
+                "src": "git",
+                "fileType": "image",
+                "path": "no_image.png",
+                "fileObject": {},
+                "content": "no_image.png",
+                "url": "https://raw.githubusercontent.com/ntohidi/testKstudio/master/test.kpg/no_image.png",
+                "sha": "c9e9f8fc39b805df2ea53e684724bd734d26a7f5",
+                "changeState": "added"
+            },
+            "a.jpg": {
+                "type": "added",
+                "fileName": "a.jpg",
+                "locator": true,
+                "editor": true,
+                "src": "git",
+                "fileType": "image",
+                "path": "a.jpg",
+                "fileObject": {},
+                "content": "a.jpg",
+                "url": "https://raw.githubusercontent.com/ntohidi/testKstudio/master/test.kpg/a.jpg",
+                "sha": "849c98b54c6039a24ec954da2601910c406abcc7",
+                "changeState": "added"
+            },
+            "a.txt": {
+                "type": "added",
+                "fileName": "a.txt",
+                "locator": false,
+                "editor": true,
+                "src": "git",
+                "fileType": "code",
+                "path": "a.txt",
                 "uploaded": false,
                 "content": "Empty text file to be filled with your thoughts í ¾í´”",
                 "url": "",
@@ -597,6 +653,63 @@
         "caption": "test.kpg",
         "changesLog": {},
         "changeState": "",
-        "pushed": true
+        "pushed": true,
+        "publish": {
+            "now": {
+                "url": "https://test.kpg-kstudio.unlcecode.now.sh"
+            },
+            "repo": {
+                "id": 201380359,
+                "name": "test.kpg-kstudio",
+                "node_id": "MDEwOlJlcG9zaXRvcnkyMDEzODAzNTk="
+            },
+            "files": {
+                "index.html": {
+                    "sha": "92f9a3de160337a5b33a4a04b06fb339f56d45ae"
+                },
+                "app.css": {
+                    "sha": "2d91681f81650e8547ad94d5d21626e21474aae0"
+                },
+                "app.js": {
+                    "sha": "9dc752d7e03930467d4ea4aa2feb2218b72bf05a"
+                },
+                "readme.md": {
+                    "sha": "f1e3386355c457240d7775119ba3c2a1719c3d59"
+                },
+                "t.txt": {
+                    "sha": "b6fc4c620b67d95f953a5c1c1230aaab5db5a1b0"
+                }
+            }
+        },
+        "nowJson": {
+            "version": 2,
+            "name": "test.kpg-kstudio",
+            "builds": [
+                {
+                    "src": "*.html",
+                    "use": "@now/static"
+                },
+                {
+                    "src": "*.css",
+                    "use": "@now/static"
+                },
+                {
+                    "src": "*.js",
+                    "use": "@now/static"
+                },
+                {
+                    "src": "*.md",
+                    "use": "@now/md"
+                },
+                {
+                    "src": "*.txt",
+                    "use": "@now/static"
+                },
+                {
+                    "src": "*.txt",
+                    "use": "@now/static"
+                }
+            ]
+        }
     }
 }
