@@ -513,7 +513,7 @@
     "test.kpg": {
         "files": {
             "index.html": {
-                "content": "<p>Hello World</p>\n<img src=\"no_image.png\">",
+                "content": "<p>Hello World</p>\n<img src=\"no_image.png\">\n<img src=\"t.jpg\">\n<video width=\"320\" height=\"240\" controls>\n  <source src=\"cool.mp4\" type=\"video/mp4\">\n</video>\n<h4>Too Roohet!</h4>",
                 "changeState": "modified",
                 "editor": true,
                 "fileType": "code",
@@ -521,12 +521,12 @@
                 "path": "index.html",
                 "url": "",
                 "src": "git",
-                "sha": "92f9a3de160337a5b33a4a04b06fb339f56d45ae",
+                "sha": "c36c1fbab0866a80d952ab749444f5c3fb0c5007",
                 "changeStatus": ""
             },
             "app.css": {
-                "content": "body {}",
-                "changeState": "",
+                "content": "body {}\nh4{\n    color: #ba2b44;\n}",
+                "changeState": "modified",
                 "editor": true,
                 "fileType": "code",
                 "fileName": "app.css",
@@ -642,6 +642,34 @@
                 "content": "Empty text file to be filled with your thoughts í ¾í´”",
                 "url": "",
                 "changeState": "added"
+            },
+            "t.jpg": {
+                "type": "added",
+                "fileName": "t.jpg",
+                "locator": true,
+                "editor": true,
+                "src": "git",
+                "fileType": "image",
+                "path": "t.jpg",
+                "fileObject": {},
+                "content": "t.jpg",
+                "url": "https://raw.githubusercontent.com/ntohidi/testKstudio/master/test.kpg/t.jpg",
+                "sha": "535d23086237c6d6a7352b1acb09e4ab70dd0dd2",
+                "changeState": "added"
+            },
+            "cool.mp4": {
+                "type": "added",
+                "fileName": "cool.mp4",
+                "locator": true,
+                "editor": true,
+                "src": "git",
+                "fileType": "video",
+                "path": "cool.mp4",
+                "fileObject": {},
+                "content": "<p>Hello World</p>\n<img src=\"no_image.png\">\n<img src=\"t.jpg\">\n<videocontrols>\n    <source src=\"cool.mp4\" type=\"video/mp4\">\n    </source>\n</video>",
+                "url": "https://raw.githubusercontent.com/ntohidi/testKstudio/master/test.kpg/cool.mp4",
+                "sha": "ed139d6d50cc43f89c27392621f20d174d0bf051",
+                "changeState": "modified"
             }
         },
         "hash": "",
